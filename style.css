@@ -1,0 +1,97 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+nav {
+  display: inline-block;
+  background-color: white;
+  width: 100%;
+  height: 54px;
+  border-bottom: 1px solid #e5e5e5;
+  box-sizing: border-box;
+  padding: 7px 10px;
+}
+
+#logo {
+  height: 40px;
+  position: relative;
+}
+
+input[type="text"] {
+  height: 25px;
+  position: relative;
+  width: 30vw;
+  left: 35vw;
+  right: 35vw;
+  background-color: #fafafa;
+  text-align: center;
+  border: 1px solid #b5b5b5;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+#actions {
+  height: 40px;
+  position: relative;
+  right: 0;
+}
+
+#stories {
+  height: 90px;
+  width: 70vw;
+  margin-top: -5px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #b5b5b5;
+  border-radius: 2px;
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+
+.user {
+  width: 18%;
+  display: inline-block;
+}
+
+.user p {
+  text-align: center;
+  margin: 0;
+  font-family: "Lucida Sans Unicode", sans-serif;
+  font-weight: 100;
+  font-size: smaller;
+}
+
+.user img {
+  margin-top: 5px;
+  border-radius: 50%;
+  border: 4px double #b5b5b5;
+  width: 56px;
+  height: 56px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.post {
+  border: 1px solid #b5b5b5;
+  border-radius: 2px;
+  height: 60vh;
+  width: 560px;
+  margin-left: 119px;
+  margin-right: 119px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.post-header {
+  background-color: white;
+  height: 50px;
+  box-sizing: border-box;
+  width: inherit;
+  padding: 5px;
+  border-bottom: 1px solid #b5b5b5;
+}
